@@ -6,7 +6,7 @@ Project to study violence based on Nepali news about violence
 1. If you find new districts, new stop words or new suffix, add them in the script nepalitokanizer.py
 2. then run myTokenizer.py as follows
 ```
-python myTokenizer.py -c insec_online_first_lockdown.csv
+python .\src\myTokenizer.py -c .\data\insec_online_first_lockdown.csv
 ```
 The above code will change the tokens in insec_online_first_lockdown.csv.
 Do this for other csv as well.

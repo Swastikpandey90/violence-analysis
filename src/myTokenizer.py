@@ -14,7 +14,7 @@ CSV_PATH = args.csv
 def get_tokens(text):
     my_tokenzier = NepaliTokenizer()
     stems = NepStemmer()
-    no_stem_text = stems.stem(text.encode('utf-8'))
+    no_stem_text = stems.stem(text)
     cleaned_string = my_tokenzier.remove_special_characters(no_stem_text)
     tokens = my_tokenzier.tokenizer(cleaned_string)
     return ','.join(tokens)

@@ -8,7 +8,6 @@ import os
 
 path_to_mallet = os.path.join(os.path.dirname(__file__), "..", '..', 'Mallet-202108', 'bin', 'mallet')
 
-
 pd.options.display.max_colwidth = 100
 data_path = os.path.join(os.path.dirname(__file__), "..", "data","data.csv")
 news_df = pd.read_csv(data_path)
